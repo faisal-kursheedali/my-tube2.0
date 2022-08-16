@@ -1,0 +1,40 @@
+.main-content{
+  display: flex;
+  height: 90vh;
+  position: relative;
+}
+.nav-container-space{
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.side-nav-container{
+  width: auto;
+  /* background-color: lightgray; */
+  height: 100%;
+  margin-left: .5rem;
+}
+.side-mainpg-container{
+  overflow-y: scroll;
+  width: 100%;
+}
+body{
+  /* background-color: #f9f9f9; */
+  /* background-color: black; */
+  /* color: white; */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.App{
+  /* display: flex; */
+  /* overflow-y: scroll; */
+}
+.side-nav-menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 15%;
+  min-width: 200px;
+  z-index: 5;
+  background-color: inherit;
+}
